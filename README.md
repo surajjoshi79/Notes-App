@@ -1,16 +1,30 @@
-# notes_app
+# 📝 Flutter Notes App
 
-A new Flutter project.
+A minimalist yet powerful note-taking application built using **Flutter**, supporting **Firebase Authentication** for secure login, **Firebase Storage** for syncing user notes and media, and **SharedPreferences** for dynamic, persistent theming. This app allows users to create, edit, and manage notes securely and beautifully — from anywhere, at any time.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 **Firebase Authentication**: Secure login with email/password or Google sign-in.
+- ☁️ **Firebase Storage**: Sync notes, images, and user data to the cloud.
+- 🎨 **Dynamic Theming**: Toggle between light and dark themes with state persistence.
+- ✍️ **Rich Note Editor**: Create and manage notes with titles, content, and optional images.
+- 📁 **Personalized Dashboard**: See user-specific notes on login.
+- 📲 **Responsive UI**: Smooth and adaptive design for all screen sizes.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+| Technology            | Description                                  |
+|------------------------|----------------------------------------------|
+| Flutter               | UI toolkit for cross-platform development     |
+| Dart                  | Core programming language                     |
+| Firebase Auth         | Authentication and user management            |
+| Firebase Storage      | Cloud storage for notes and media             |
+| SharedPreferences     | Local theme persistence                       |
+| Provider / Riverpod   | (Optional) State management                   |
+
+---
+
